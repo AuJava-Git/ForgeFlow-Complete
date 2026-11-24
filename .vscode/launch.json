@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ForgeFlowApplication (dev)",
+      "request": "launch",
+      "mainClass": "com.forgeflow.ForgeFlowApplication",
+      "projectName": "forgeflow",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "SPRING_PROFILES_ACTIVE": "dev"
+      }
+    }
+  ]
+}
